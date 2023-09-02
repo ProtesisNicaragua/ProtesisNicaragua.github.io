@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protesis</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link href="css/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="theme-color" content="#2091F9">
+
+    <style>
+        /* Estilos personalizados para las imágenes en el carrusel */
+        #carouselExample .carousel-inner .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('./images/computer.jpg');
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="row">
+        <div class="col-12">
+            <!----header--->
+            <header class="hero">
+                <div class="nav">
+                    <input type="checkbox" id="nav-check">
+                    <div class="nav-header">
+                        <div class="nav-title">
+                            Protesis Bionica.
+                        </div>
+                    </div>
+                    <div class="nav-btn">
+                        <label for="nav-check">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+
+                    <div class="nav-links">
+                        <a href="index.html">Inicio</a>
+                        <a href="#history">Historia de</a>
+                        <a href="contacto.html" target="_blank">Contacto</a>
+                        <a href="Protesis Robotica para brazo.pdf" target="_blank">Blog</a>
+                    </div>
+                </div>
+                <section class="hero__container container">
+                    <h1 class="hero__title">¿Nicaragua necesita robots?</h1>
+                    <p class="hero__paragraph">Las prótesis biónicas son la evolución tecnológica de las prótesis
+                        tradicionales, en esta página te contaremos más sobre esta revolucionaria propuesta y como
+                        ayudar a las personas con discapacidades</p>
+                    <a href="#tipo" class="cta">Comienza ahora</a>
+                </section>
+                <br>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#fff" fill-opacity="1"
+                        d="M0,224L24,186.7C48,149,96,75,144,80C192,85,240,171,288,186.7C336,203,384,149,432,154.7C480,160,528,224,576,245.3C624,267,672,245,720,202.7C768,160,816,96,864,112C912,128,960,224,1008,229.3C1056,235,1104,149,1152,112C1200,75,1248,85,1296,117.3C1344,149,1392,203,1416,229.3L1440,256L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z">
+                    </path>
+                </svg>
+            </header>
+            </header>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-2">
+            <!----Aside 1--->
+            <aside>
+                <section class="container about">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            En esta pagina
+                        </a>
+                        <a class="list-group-item" href="#history">¿Que entendemos por discapacidad?</a>
+                        <a class="list-group-item" href="#entendemos">Situacion en nuestro pais</a>
+                        <a class="list-group-item" href="#tipo">¿Que se conoce sobre las protesis?</a>
+                    </div>
+
+                    <br><br>
+                    <center><img src="images/log.jpg" alt="" width="100px" height="100px"></center>
+                    <br>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@ex</span>
+                    </div>
+                    <p>Envianos tu comentario sobre este proyecto</p>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
+                </section>
+            </aside>
+        </div>
+        <div class="col-10">
+            <!--Main-->
+            <main>
+                <section class="container about">
+                    <h2 class="subtitle" id="history">¿Que esta pasando en Nicaragua?</h2>
+                    <p class="about__paragraph">
+                        La amputación es una causa de discapacidad motriz en nuestro país, en un censo sobre la
+                        discapacidad realizado en 2009 llamado 'todos con voz' se recogieron datos en donde se indicaba
+                        que el 36% de las personas con discapacidades corresponden a amputaciones de extremidades
+                        superiores e inferiores, con un gran impacto en la sociedad, lo cual conlleva a altos costos
+                        derivados de la atención a dichos pacientes y su reintegración a la sociedad. En Nicaragua
+                        alrededor del 10% de la población sufre algún tipo de discapacidad debido a alguna amputación,
+                        los cuales son atendidos en la clínica de amputados y Órtesis del Centro Nacional de producción
+                        de Órtesis y prótesis del Hospital de Rehabilitación Aldo Chavarría. <br><br>
+                        Si tomamos una prótesis de brazo o de pierna; en el caso del brazo tienen como muchos tres
+                        grados de libertad lo que contrasta por completo con un brazo humano que tiene más de 25 grados
+                        de libertad y por lo tanto una mayor destreza, además de la habilidad de determinar si algo está
+                        frío o caliente. Por esta razón el hombre ha querido mejorar las condiciones de las prótesis y
+                        permitir que muchas más personas las puedan adquirir, usar y manejar. <br> <br>
+                        Nicaragua sigue siendo uno de los países menos desarrollados de América Latina. La pobreza,
+                        aunque ha disminuido de manera constante en los últimos años, sigue siendo alta. Según
+                        estadísticas de la Fundación Económica para el Desafío Global (FIDEG), el 50.3% de los
+                        Nicaragüenses viven en la pobreza, es decir con menos de 2 dólares diario. Y esto es el reflejo
+                        de que la población no se encuentra adecuadamente empleada. Casi el 5 por ciento está
+                        desempleado y más del 46 por ciento se encuentra subempleado. Más del 80% de los pobres en
+                        Nicaragua residen en áreas rurales, gran parte en comunidades remotas donde el acceso a los
+                        servicios básicos es un reto diario.
+                    </p> <br><br>
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/Grafico1.png" class="d-block" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/Grafico2.png" class="d-block" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/Grafico3.png" class="d-block" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> <br> <br>
+                    </div>
+                    <b>
+                        <h2 class="subtitle" id="entendemos">¿Que entendemos por discapacidad?</h2>
+                    </b>
+                    <p class="about__paragraph">
+                        El concepto “discapacidad” es comúnmente utilizado por la sociedad en general para designar a
+                        aquellas personas que tienen alguna dificultad, en mayor o menor grado, al realizar
+                        actividades cotidianas, sin embargo, esta acepción social no es suficiente para comprender
+                        de mejor manera este complejo tema, por lo que en este capítulo se definirá y analizará este
+                        término como también aquellos que están íntimamente relacionados con él. <br><br>
+                        El concepto de discapacidad ha sufrido grandes cambios a lo largo de la historia. Durante los
+                        últimos años, hemos visto como se ha ido abandonando una perspectiva paternalista y asistencial
+                        de la discapacidad, que miraba a la persona como un ser “dependiente y necesitado”, hacia un
+                        nuevo enfoque, que contempla a la persona con discapacidad como un individuo con habilidades,
+                        recursos y potencialidades. <br> <br>
+                        Esta evolución se ha visto acompañad a de avances paralelos tanto en el tratamiento médico como
+                        en la inserción social de este colectivo. Las personas con discapacidad han pasado de ser
+                        rechazadas y perseguidas, hasta el reconocimiento de la importancia y de la necesidad de su
+                        inserción Social como medio integrador y rehabilitador para el individuo y enriquecedor para la
+                        sociedad. <br><br>
+                        De acuerdo a la Organización Mundial de la Salud (OMS) por discapacidad debemos entender
+                        “cualquier
+                        restricción o impedimento para la realización de una actividad, ocasionados por una deficiencia
+                        dentro del ámbito considerado normal para el ser humano”. Esta definición, consideran un
+                        parámetro
+                        al que llaman “normal” para la realización de las actividades simples del hombre, sin embargo,
+                        hace
+                        referencia de una carencia, que impide el desempeño “normal” de las actividades humanas. <br>
+                        <br>
+                    </p>
+                    <h2 class="subtitle" id="protesis">¿Qué son las protesis?</h2>
+                    <p class="about__paragraph">
+
+                        Las prótesis están definidas como una noción que procede de la lengua griega. El término se
+                        emplea en el campo de la medicina para nombrar la reparación artificial de un órgano, o de una
+                        porción de él, que se encuentra ausente en el cuerpo del paciente. <br> <br>
+                        Considerando la definición citada en el párrafo anterior, podemos definir a una prótesis
+                        robótica, como "un elemento artificial dotado de cierta autonomía e inteligencia capaz de
+                        realizar una función de una parte faltante del cuerpo". Dicha autonomía e inteligencia se logra
+                        al integrar, actuadores, sensores, procesadores y complejos algoritmos de control. De acuerdo a
+                        esta definición, las prótesis de uso cosmético quedan completamente excluidas, como por ejemplo
+                        los ojos de vidrios, las piernas de madera, etc. <br> <br>
+                        La necesidad de crear prótesis se dio por consecuencias de accidentes, cáncer, males
+                        formaciones, etc. Pero lo que impulsó a la creación de dichas prótesis es el querer mejorar las
+                        condiciones de vida de los sobrevivientes en guerra. Por otra parte, la robótica es la rama de
+                        varias ingenierías como lo pueden ser; la ingeniería mecatrónica, la ingeniería electrónica, la
+                        ingeniería eléctrica, la ingeniería mecánica y la Ingeniería Biomédica, también es la rama de la
+                        ciencia de computación que se puede aplicar en los robots. En este caso la veremos aplicada en
+                        las prótesis. <br> <br>
+                    </p>
+                    <h2 class="subtitle" id="tipo">¿Qué se sabe sobre este tipo de protesis?</h2>
+                    <p class="about__paragraph">
+                        La biomecatrónica es la ciencia que intenta unir al hombre a las
+                        máquinas y ha facilitado la aparición de prótesis robóticas o también llamadas biónicas. En las
+                        últimas décadas hay habido grandes hitos
+                        en el desarrollo protésico que han permitido importantes avances en la calidad de este tipo de
+                        prótesis En el caso de las prótesis, la tecnología se utiliza para mejorar la funcionalidad,
+                        durabilidad y biocompatibilidad de los dispositivos. <br> <br>
+                        Por ejemplo, se pueden utilizar materiales como fibra de carbono super ligera
+                        para recubrir las superficies de las prótesis, lo que puede reducir la fricción, prevenir la
+                        acumulación de bacterias y mejorar la integración con los tejidos del cuerpo. Además, la
+                        nanotecnología también ha sido utilizada en la fabricación de sensores y actuadores
+                        para prótesis. Estos dispositivos pueden ser extremadamente pequeños y sensibles, lo que permite
+                        una mejor interacción entre la prótesis y el cuerpo del usuario. <br> <br>
+                        La necesidad de crear prótesis se dio por consecuencias de accidentes, cáncer, males
+                        formaciones, etc. Pero lo que impulsó a la creación de dichas prótesis es el querer mejorar las
+                        condiciones de vida de los sobrevivientes en guerra. Por otra parte, la robótica es la rama de
+                        varias ingenierías como lo pueden ser; la ingeniería mecatrónica, la ingeniería electrónica, la
+                        ingeniería eléctrica, la ingeniería mecánica y la Ingeniería Biomédica, también es la rama de la
+                        ciencia de computación que se puede aplicar en los robots. En este caso la veremos aplicada en
+                        las prótesis. <br> <br>
+                        Esta tecnología ha avanzado a pasos agigantados y siempre con el mismo objetivo, el de facilitar
+                        de alguna manera la vida del ser humano, es así que surge la necesidad de reemplazar con
+                        aparatos robóticos alguna extremidad del cuerpo o mejorar la movilidad del mismo.
+
+                    </p>
+
+
+                </section>
+            </main>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="about__main">
+            <div class="card" style="width: 22rem;">
+                <img src="images/Nanotecnologia.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Materiales y procesos de produccion</h5>
+                    <p>Algunos avances tecnológicos aplicados a la medicina suenan todavía a
+                        ciencia-ficción. Por
+                        ejemplo,
+                        el empleo de las impresoras 3D para crear órganos artificiales.
+                        Sin embargo, estas impresoras ya se usan en ámbitos como la fabricación de
+                        instrumental
+                        médico,
+                        implantes, prótesis y elementos ortopédicos.
+                    </p>
+                    <a href="Materiales y proceso de produccion.html" class="btn btn-primary">Go
+                        somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+                <img src="images/personas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pruebas de protesis y ciudadanos Nicaragüenses</h5>
+                    <p class="card-text">Cuando asimos con nuestros dedos un objeto lo sujetamos con más o
+                        menos
+                        fuerza según la
+                        información que nuestro sentido del tacto recoge para ser enviada a nuestro cerebro,
+                        una
+                        competencia
+                        de la que carecen hasta ahora los brazos robóticos diseñados para persona mutiladas.
+                    </p>
+                    <a href="Pruebas en soldados.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+                <img src="images/futuro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Un futuro prometedor en Nicargaua</h5>
+                    <p class="card-text">La biotecnología se enfrenta a muchísimos retos, el primero es
+                        igualar los
+                        sistemas
+                        biónicos los sistemas naturales del cuerpo humano y el control de los 27 grados de
+                        libertad
+                        en tiempo real. Aumentar nuestras capacidades humanas para, por ejemplo, tener de
+                        cinco
+                        dedos sean seis, o que una persona que pueda tener cuatro brazos o tres piernas.
+                    </p>
+                    <a href="Futuro de las protesis.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div class="col-12">
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Te interesa saber el mecanismo de nuestras protesis?</h2>
+                    <p class="knowledge__paragraph">
+                        Las prótesis de brazo llevan incorporada una prótesis de mano, para cualquier nivel de
+                        amputación. Tiene la función de apertura y cierre, mediante un sistema de accionamiento
+                        miniaturizado. Incorpora un pequeño motor de alto desarrollo que mueve los dedos medio e
+                        índice,
+                        así como el pulgar abriendo y cerrando la mano.
+                    </p>
+                    <a href="https://youtube.com/shorts/VmwmmFG76UI?feature=share" class="cta">Descubrelo
+                        aqui</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./images/brazo white.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para adquirir tu protesis</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">mano</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Tratamiento</p>
+                        <p class="price__features">Terapias personalizadas</p>
+                        <p class="price__features">Asistencias luego de adquirirla</p>
+                    </div>
+
+                    <a class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Brazo Completo</p>
+                    <h3 class="price__price">$30/mes por 2 años y 3 meses</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Tratamiento</p>
+                        <p class="price__features">Terapias personalizadas</p>
+                        <p class="price__features">Asistencias luego de adquirirla</p>
+                    </div>
+
+                    <a class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">antebrazo</p>
+                    <h3 class="price__price">$40/mes por 3 años</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Tratamiento</p>
+                        <p class="price__features">Terapias personalizadas</p>
+                        <p class="price__features">Asistencias luego de adquirirla</p>
+                    </div>
+
+                    <a class="price__cta">Empieza ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">En esta seccion encontraras respuestas sobre las cuestiones mas
+                frecuentes
+                de nuestros seguidores</p>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Cuanto cuesta adquirir una de estas protesis?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p>Normalmente, un sistema biónico con sistema de última generación como la que
+                                nosotros
+                                tenemos, una mano biónica puede estar alrededor de mínimo 20 mil hasta 100 mil
+                                dólares.
+                                La tecnología del sistema es superior a las que existen en el mercado, pero con
+                                unos
+                                costos muchos menores <br> Por otro lado, La compañía Exiii, fundada en el 2014
+                                por tres
+                                exingenieros de los gigantes tecnológicos Sony y Panasonic, ha diseñado un
+                                prototipo de
+                                prótesis cuyo costo sería la décima parte de los 1,5 millones de yenes (unos
+                                12.516
+                                dólares) que cuesta actualmente adquirir este tipo de tecnología, informó el
+                                diario
+                                Nikkei.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            De que estan hechas estas protesis?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p> Una prótesis fabricada con nanotecnología puede estar compuesta por una variedad
+                                de
+                                materiales.
+                                <br>• Nano compositores: Los nano compositores son materiales que combinan una
+                                matriz
+                                polimérica con nanomateriales, como nanopartículas, nano fibras o nanotubos.
+                                <br>• Recubrimientos nanoestructurados: Se pueden aplicar recubrimientos
+                                nanoestructurados en la superficie de la prótesis para mejorar su rendimiento y
+                                funcionalidad.
+                                <br>• Nanomateriales conductores: Los nanomateriales conductores, como los
+                                nanotubos de
+                                carbono o los nano cables metálicos, se utilizan en la fabricación de sensores y
+                                actuadores para prótesis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Cual es la principal ventaja de estas protesis sobre las convencionales?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Las prótesis biónicas tradicionales a menudo dependen de baterías externas o
+                                cables para
+                                su funcionamiento, lo que limita la movilidad del usuario. La nanotecnología
+                                puede
+                                ayudar a desarrollar sistemas de generación de energía integrados en la
+                                prótesis, como
+                                células solares flexibles o nano generadores que aprovechan la energía del
+                                movimiento.
+                                Esto permitiría que las prótesis sean más autónomas y reduciría la necesidad de
+                                recargar
+                                o reemplazar las baterías con frecuencia.
+                                La nanotecnología también se está utilizando para investigar y desarrollar
+                                enfoques de
+                                regeneración de tejidos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <!---- footer -->
+            <footer class="footer">
+                <section class="footer__container container">
+                    <nav class="nav nav--footer">
+                        <h2 class="footer__title">Protesis Bionica.</h2>
+
+                        <ul class="nav__link nav__link--footer">
+                            <li class="nav__items">
+                                <a href="index.html" class="nav__links">Inicio</a>
+                            </li>
+                            <li class="nav__items">
+                                <a href="index.html #history" class="nav__links">Historia de</a>
+                            </li>
+                            <li class="nav__items">
+                                <a href="contacto.html" class="nav__links">Contacto</a>
+                            </li>
+                            <li class="nav__items">
+                                <a href="Protesis Robotica para brazo.pdf" class="nav__links">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                        <h2 class="footer__newsletter">Suscribete a nuestra pagina</h2>
+                        <div class="footer__inputs">
+                            <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                            <input type="button" value="Registrate" class="footer__submit">
+                        </div>
+                    </form>
+                </section>
+
+                <section class="footer__copy container">
+                    <div class="footer__social">
+                        <a class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                        <a class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                        <a class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+                    </div>
+
+                    <h3 class="footer__copyright">Derechos reservados &copy;</h3>
+                    <ul class="creators-list">
+                        <li>Jose</li>
+                        <li>Ervin</li>
+                        <li>Pavel</li>
+                        <li>Eduardo</li>
+                        <li>Arief</li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </div>
+    <script src="js/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

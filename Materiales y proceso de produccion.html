@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales y Proceso de produccion</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link href="css/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="theme-color" content="#2091F9">
+
+    <style>
+       
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('./images/close-up-black-tube-with-blue-background.jpg');
+            background-size: cover;
+            
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Protesis Bionica.
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="#history">Historia de</a>
+          <a href="contacto.html" target="_blank">Contacto</a>
+          <a href="Protesis Robotica para brazo.pdf" target="_blank">Blog</a>
+        </div>
+      </div>
+
+    <header class="hero">
+        
+
+        <section class="hero__container container">
+            <h1 class="hero__title">¿Cuál es la diferencia clave en el funcionamiento entre una prótesis de brazo robótico y una prótesis convencional?</h1>
+            <p class="hero__paragraph"> Funciona mediante la combinación de sensores, motores y 
+                algoritmos para permitir el movimiento y la interacción con el entorno.</p>
+            <a href="#Procesos" class="cta">Comienza ahora</a>
+        </section>
+        <br>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L24,186.7C48,149,96,75,144,80C192,85,240,171,288,186.7C336,203,384,149,432,154.7C480,160,528,224,576,245.3C624,267,672,245,720,202.7C768,160,816,96,864,112C912,128,960,224,1008,229.3C1056,235,1104,149,1152,112C1200,75,1248,85,1296,117.3C1344,149,1392,203,1416,229.3L1440,256L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg></header>
+
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">La necesidad de crear protesis</h2>
+            <p class="about__paragraph">La necesidad de crear prótesis se dio por consecuencias de accidentes, 
+                cáncer, males formaciones, etc. Pero lo que impulsó a la creación de dichas 
+                prótesis es el querer mejorar las condiciones de vida de los sobrevivientes en 
+                guerra. <br><br>
+                Por otra parte, la robótica es la rama de varias ingenierías como lo pueden ser; 
+                la ingeniería mecatrónica, la ingeniería electrónica, la ingeniería eléctrica, la 
+                ingeniería mecánica y la Ingeniería Biomédica, también es la rama de la 
+                ciencia de computación que se puede aplicar en los robots. En este caso la 
+                veremos aplicada en las prótesis.<br><br>
+                Sin embargo, no todas las personas tienen el conocimiento suficiente acerca de 
+                que beneficios le pueden traer cierto tipo de prótesis y de qué manera. Este 
+                tema aquí en Nicaragua no es algo que abarque la atención suficiente por lo que las personas de bajos recursos se ven directamente 
+                afectadas, el conocimiento de lo que es una prótesis tal vez sea claro para 
+                algunos, pero la mayoría no sabe ni entiende cuales o que tipos de prótesis 
+                hay, suelen confundirse mucho.<br><br>
+                
+            </p> <br><br>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="PagMaterialesYprocesos/mecatronica.jpg" class="d-block w-100" alt="..." width="200px" height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="PagMaterialesYprocesos/electronica.jpg" class="d-block w-100" alt="..." width="200px" height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="PagMaterialesYprocesos/mecanica.png" class="d-block w-100" alt="..." width="200px" height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="PagMaterialesYprocesos/Startup.jpg" class="d-block w-100" alt="..." width="200px" height="500px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                <br> <br>
+                <section class="questions container">
+                    <h2 class="subtitle">Diferencia en el funcionamiento entre una prótesis robótico y prótesis convencional</h2>
+                    <p class="questions__paragraph">Diferencia en el funcionamiento entre una prótesis robótico y prótesis convencional</h2>
+                        Una prótesis robótica utiliza la electrónica avanzada y sensores para lograr un control preciso y una funcionalidad 
+                        mejorada, una prótesis convencional se basa principalmente en componentes mecánicos y es más limitada en términos de movimiento y 
+                        capacidad de adaptación. Estas diferencias fundamentales en el funcionamiento hacen que las prótesis robóticas sean una opción más 
+                        versátil y avanzada para las personas con amputaciones o discapacidades en las extremidades.
+                        <br><br>
+                        <div>
+                            <img src="PagMaterialesYprocesos/dife.jpg" width="500px" height=" 300px">
+                        </div></p>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Protesis Roboticas 
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <p><br><b>Funcionamiento Electrónico:</b> Una prótesis robótica utiliza componentes electrónicos y sensores avanzados 
+                                        para detectar señales eléctricas generadas por los músculos residuales del usuario o a través de sensores de presión 
+                                        para comprender la intención de movimiento.<br>
+                                        <br><b>Control Activo:</b> Estas señales son procesadas por una unidad de control, que interpreta la intención del 
+                                        usuario y envía comandos a los motores integrados en la prótesis.<br>
+                                        <br><b>Movimiento Preciso:</b> Los motores permiten movimientos precisos y variados, 
+                                        lo que incluye la capacidad de agarrar objetos con diferentes grados de fuerza y realizar movimientos 
+                                        complejos como rotación de muñeca y flexión de codo.<br>
+                                        <br><b>Interfaz de Usuario Avanzada:</b> Puede incluir interfaces de usuario avanzadas, como aplicaciones móviles o c
+                                        omandos de voz, que permiten al usuario un control más intuitivo y personalizado.<br><br>
+                                        <div>
+                                            <img src="PagMaterialesYprocesos/manoRobo.jpg" width="500px" height=" 300px">
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Prótesis Convencional
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <p> <br><b>Funcionamiento Mecánico:</b> Las prótesis convencionales suelen estar diseñadas principalmente con componentes mecánicos y no cuentan con sensores electrónicos avanzados.<br>
+                                        <br><b>Movimientos Limitados:</b> La gama de movimientos en una prótesis convencional es generalmente más limitada y estática en comparación con una prótesis robótica.<br>
+                                        <br><b>Control Pasivo:</b> El control de una prótesis convencional depende principalmente de la fuerza y los movimientos del usuario, y no ofrece la misma adaptabilidad y precisión que una prótesis robótica.<br>
+                                        <br><b>Menos Interfaz de Usuario:</b> A menudo, no tienen interfaces de usuario avanzadas y el control se basa en movimientos mecánicos predefinidos.<br><br>
+                                        <div>
+                                            <img src="PagMaterialesYprocesos/convenciona.jpeg" width="500px" height=" 300px">
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        
+                    </div>
+        
+
+
+
+
+                <h2 class="subtitle">¿Por que protesis roboticas?</h2>
+                <p class="about__paragraph">Una prótesis de brazo robótico se trata de un aparato tecnológico que es empleado para sustituir u
+                    n miembro superior del cuerpo humano amputado, pero que, a diferencia de las prótesis tradicionales, tienen elementos 
+                    mecánicos/eléctricos, motores, sensores y pueden ser conectadas al sistema nervioso para controlar los movimientos que 
+                    realizan de forma automatizada, sustituyendo funcionalmente a un brazo humano real. <br>
+
+                    <br>Se tratan de instrumentos que funcionan de manera autónoma, ya que cuentan con servomotores diseñados para administrar la fuerza, 
+                    movimiento y equilibrio necesario para que las personas puedan recuperar las habilidades que un brazo normal les da, como sujetar 
+                    objetos, equilibrarse y más.</br>
+
+                    <br><b>•Las prótesis de brazo robótico </b>pueden realizar los movimientos naturales e incluso otros que los brazos biológicos, por sus limitantes, 
+                    no pueden realizar, de tal forma que ayuda a los pacientes a recuperar capacidades perdidas por la amputación.</br>
+
+                    <br> <b>•Estas prótesis inteligentes </b>también permiten a las personas escribir, manipular objetos u herramientas y muchas otras funciones que realizamos 
+                    todos los días con los brazos y las manos y que, las prótesis convencionales no pueden realizar.</br>
+
+                    <br><b>•Estas prótesis biónicas han sido desarrolladas y mejoradas</b> con el paso de los años y los avances tecnológicos para perfeccionar sus movimientos 
+                    y que puedan ser un medio para que las personas que han sufrido una amputación recuperen su calidad de vida con la mezcla entre 
+                    el desarrollo médico y la tecnología.</br>
+
+                    <br> <b>•Una prótesis de brazo robótica podría tener un impacto significativo en la calidad de vida de las personas que viven Nicaragua</b> 
+                    , un país con limitaciones económicas y donde solo se fabrican prótesis convencionales.
+                </p> <br> <br>
+
+                
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1u237vOLWXk" 
+                title="Ministerio de Salud entrega ortesis y prótesis a pacientes del Hospital Aldo Chavarría" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+                
+            <br>
+                <h2 id="Procesos" class="subtitle">Conozca el taller donde fabrican prótesis</h2>
+                <p class="about__paragraph"> En el <b>hospital Aldo Chavarría</b>, de Managua, es donde vuelven a nacer las esperanzas
+                    para los nicaragüenses que han visto trucadas sus vidas cuando han perdido alguno de sus miembros producto de diferentes 
+                    circunstancias. Este centro asistencial cuenta con el taller de biomecánica para elaboración de prótesis y ortesis. <br><br>
+
+                    <b>En este taller se elaboran piezas de todas las medidas y se utiliza tecnología avanzada.</b> El polipropileno con todos sus 
+                    componentes es importado de Suiza y el Gobierno Sandinista asume los costos para brindar la atención que el pueblo nicaragüense 
+                    amerita.<br><br>
+
+                    <b>En el Hospital Aldo Chavarría </b> elaboran las piezas, pero también se rehabilitan a los pacientes que inician una nueva vida. 
+                        Hombres y mujeres a diario trabajan en el Hospital para a través de esta acción incorporar a la sociedad a jefes de familia 
+                        que deben seguir luchando por sus seres queridos.<br><br>
+
+                    Aquí las esperanzas de los pacientes crecen a diario porque cuentan con el apoyo humano y el equipo necesario empezar de nuevo
+                    forma adecuados para su integración en la prótesis.<br><br>
+
+
+                    
+                    <div class="container mt-5">
+                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="personasDis/Acr1393272546201625674.jpg" class="d-block w-100" alt="Antes" >
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Antes</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="personasDis/Acr13932725462016-21501.jpg" class="d-block w-100" alt="Después">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Después</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                
+                    
+                        <br> <br>
+
+                    
+                </p>
+
+                <div class="about__main">
+
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/Nanotecnologia.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Materiales y procesos de produccion</h5>
+                            <p>Algunos avances tecnológicos aplicados a la medicina suenan todavía a ciencia-ficción.
+                                Por
+                                ejemplo,
+                                el empleo de las impresoras 3D para crear órganos artificiales.
+                                Sin embargo, estas impresoras ya se usan en ámbitos como la fabricación de instrumental
+                                médico,
+                                implantes, prótesis y elementos ortopédicos.
+                            </p>
+                            <a href="Materiales y proceso de produccion.html" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/personas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pruebas en soldados y personas normales</h5>
+                            <p class="card-text">Cuando asimos con nuestros dedos un objeto lo sujetamos con más o menos
+                                fuerza según la
+                                información que nuestro sentido del tacto recoge para ser enviada a nuestro cerebro, una
+                                competencia
+                                de la que carecen hasta ahora los brazos robóticos diseñados para persona mutiladas.
+                            </p>
+                            <a href="Pruebas en soldados.html" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 20rem;">
+                        <img src="images/futuro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Futuro de las protesis Bionicas</h5>
+                            <p class="card-text">La biotecnología se enfrenta a muchísimos retos, el primero es igualar
+                                los
+                                sistemas
+                                biónicos los sistemas naturales del cuerpo humano y el control de los 27 grados de
+                                libertad
+                                en tiempo real. Aumentar nuestras capacidades humanas para, por ejemplo, tener de cinco
+                                dedos sean seis, o que una persona que pueda tener cuatro brazos o tres piernas.
+                            </p>
+                            <a href="Futuro de las protesis.html" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¿Te interesa saber mas sobre los materiales y procesos de produccion?</h2>
+                    <p class="knowledge__paragraph">
+                        Las operaciones elementales que realiza un computador, también conocidas como operaciones
+                        fundamentales o básicas, son las siguientes:
+                        <br>Las prótesis biónicas están compuestas por sensores, procesadores, inclinómetros,
+                        acelerómetros, actuadores y complejos algoritmos de control. Esto hace que la prótesis tenga
+                        cierta inteligencia y realice movimientos más naturales, imitando los movimientos del sistema
+                        músculo esquelético.</br>
+                    </p>
+                    <a href="https://youtu.be/JuZVqwprrE4" class="cta">Descubrelo aqui</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./images/brazo uni.jpg" class="knowledge__img">
+
+            </div>
+
+            <section class="questions container">
+                <h2 class="subtitle">Preguntas frecuentes</h2>
+                <p class="questions__paragraph">En esta seccion encontraras respuestas sobre las cuestiones mas
+                    frecuentes
+                    de nuestros seguidores</p>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Cuanto cuesta adquirir una de estas protesis?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <p>Normalmente, un sistema biónico con sistema de última generación como la que nosotros
+                                    tenemos, una mano biónica puede estar alrededor de mínimo 20 mil hasta 100 mil
+                                    dólares.
+                                    La tecnología del sistema es superior a las que existen en el mercado, pero con unos
+                                    costos muchos menores <br> Por otro lado, La compañía Exiii, fundada en el 2014 por
+                                    tres
+                                    exingenieros de los gigantes tecnológicos Sony y Panasonic, ha diseñado un prototipo
+                                    de
+                                    prótesis cuyo costo sería la décima parte de los 1,5 millones de yenes (unos 12.516
+                                    dólares) que cuesta actualmente adquirir este tipo de tecnología, informó el diario
+                                    Nikkei.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                De que estan hechas estas protesis?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p> Una prótesis fabricada con nanotecnología puede estar compuesta por una variedad de
+                                    materiales.
+                                    <br>• Nano compositores: Los nano compositores son materiales que combinan una
+                                    matriz
+                                    polimérica con nanomateriales, como nanopartículas, nano fibras o nanotubos.
+                                    <br>• Recubrimientos nanoestructurados: Se pueden aplicar recubrimientos
+                                    nanoestructurados en la superficie de la prótesis para mejorar su rendimiento y
+                                    funcionalidad.
+                                    <br>• Nanomateriales conductores: Los nanomateriales conductores, como los nanotubos
+                                    de
+                                    carbono o los nano cables metálicos, se utilizan en la fabricación de sensores y
+                                    actuadores para prótesis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Cual es la principal ventaja de estas protesis sobre las convencionales?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>Las prótesis biónicas tradicionales a menudo dependen de baterías externas o cables
+                                    para
+                                    su funcionamiento, lo que limita la movilidad del usuario. La nanotecnología puede
+                                    ayudar a desarrollar sistemas de generación de energía integrados en la prótesis,
+                                    como
+                                    células solares flexibles o nano generadores que aprovechan la energía del
+                                    movimiento.
+                                    Esto permitiría que las prótesis sean más autónomas y reduciría la necesidad de
+                                    recargar
+                                    o reemplazar las baterías con frecuencia.
+                                    La nanotecnología también se está utilizando para investigar y desarrollar enfoques
+                                    de
+                                    regeneración de tejidos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Protesis Bionica.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="index.html #history" class="nav__links">Historia de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="contacto.html" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="Protesis Robotica para brazo.pdf " class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete a nuestra pagina</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="button" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy;</h3>
+            <ul class="creators-list">
+                <li>Jose</li>
+                <li>Ervin</li>
+                <li>Pavel</li>
+                <li>Eduardo</li>
+                <li>Arief</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
